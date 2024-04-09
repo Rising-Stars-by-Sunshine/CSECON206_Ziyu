@@ -9,9 +9,13 @@ The rationale behind the one-click setup option is to facilitate ease of use for
 
 I envision the newly added Generative AI (GAI) interface to enhance the facilitation of experiments and data analysis. Addressing the scenario I mentioned, with GAI implementation, if I desire to conduct "5 rounds of testing with a trust game," I would simply input my intention, and GAI would assist in the automatic configuration of the experimental environment, which would encompass APIs executing code automatically in practice. Furthermore, after obtaining the experimental results, GAI could also aid in data analysis and interpretation of the outcomes. Figure 2 illustrates the flowchart of GAI interaction.
 
-![ECONCS](CS&Econ_inter_flowchart.png)
+![data](data_table.png)
 
-Fig.1 Mindmap of CS&Econ intersection
+Fig.1 Otree data table
+
+![Otree](Otree_flowchart.png)
+
+Fig.2 Flowchart of GAI interact with Otree
 
 **Question 2 Beyond Computer Science and Economics Methodology 2 Multi-agent Reinforcement Learning:  Advancing Multi-Agent Reinforcement Learning**
 
@@ -19,9 +23,9 @@ I wish to recreate the Trust Game using Multi-Agent Reinforcement Learning (MARL
 
 My classroom experience has taught me that conventional reward settings tend to steer problems towards optimal solutions (see Fig. 2). However, in game theory problems, considerations like Nash equilibria—which might not be optimal—need to be factored in. To address this, it becomes necessary to continuously tweak the reward systems of each agent. For example, to reach a Nash equilibrium, the giver's loss aversion should be set so high that they wouldn't give any money to the second person. Inspired by this predicament, I have also come to appreciate the intricate variability in game theory research; that each reward structure we devise may correlate with a different psychological outcome in subjects. As Canese et al. (2021) pointed out, the uncertainty and dynamism of environments pose a significant challenge when applying Multi-Agent Reinforcement Learning (MARL) in the real world. Moreover, the interactions between multiple agents are non-static, meaning the actions of one agent can impact the returns of others. Consequently, we require more sophisticated MARL models to adapt to varying situations, such as the optimization models like the decision-transformer model.
 
-![ECONCSfuture](CS&Econ_future_flowchart.png)
+![MARL](MARL_flowchart.png)
 
-Fig.2 Mindmap of CS&Econ for better future
+Fig.3 Flowchart of MARL improvement 
 
 **Question 3 Brainstorm your research idea by criticizing existing research: Critiquing and Expanding upon Existing Research**
 
@@ -49,11 +53,11 @@ Looking ahead, the integration of generative artificial intelligence models with
 
 **5. Beyond Computer Science and Economics**
 
-Regarding this issue, I sought the perspective of ChatGPT 4.0, which suggested that integrating bounded rationality—encompassing human cognitive limitations and decision-making heuristics—with a Federated Learning (FL) environment that includes multiple artificial intelligence agents such as ChatGPT could significantly impact outcomes. Human participants may display decision-making influenced by psychological heuristics, resulting in a varying response to incentives compared to a purely rational model. On the other hand, artificial intelligence agents, based on their programming, may exhibit different forms of "rationality," potentially more consistent yet lacking the intuitive judgement akin to humans. Incorporating such elements introduces more complex and potentially unpredictable dynamics into the FL model, thus necessitating the design of robust incentive mechanisms and participation strategies that cater to human cognitive traits and AI capabilities. This approach could yield more realistic models that better reflect the interactions and decision-making processes of the real world.
+Regarding this issue, I sought the perspective of ChatGPT 4.0, as shown in figure 5, which suggested that integrating bounded rationality—encompassing human cognitive limitations and decision-making heuristics—with a Federated Learning (FL) environment that includes multiple artificial intelligence agents such as ChatGPT could significantly impact outcomes. Human participants may display decision-making influenced by psychological heuristics, resulting in a varying response to incentives compared to a purely rational model. On the other hand, artificial intelligence agents, based on their programming, may exhibit different forms of "rationality," potentially more consistent yet lacking the intuitive judgement akin to humans. Incorporating such elements introduces more complex and potentially unpredictable dynamics into the FL model, thus necessitating the design of robust incentive mechanisms and participation strategies that cater to human cognitive traits and AI capabilities. This approach could yield more realistic models that better reflect the interactions and decision-making processes of the real world.
 
-![AI&Human](AI&Human_flowchat.png)
+![critique](Paper_critique_flowchart.png)
 
-Fig.3 Mindmap of AI&Human
+Fig.4 Mindmap of paper critique
 
 # Bibliography
 Association for Computing Machinery."2018 Turing Award."  https://awards.acm.org/about/2018-turing.
