@@ -59,22 +59,22 @@ Regarding this issue, I sought the perspective of ChatGPT 4.0, as shown in figur
 
 Fig.4 Mindmap of paper critique
 
-# Bibliography
-Association for Computing Machinery."2018 Turing Award."  https://awards.acm.org/about/2018-turing.
+![gpt](Chatgpt.png)
 
-Brynjolfsson, Erik, Danielle Li, and Lindsey R. Raymond. Generative AI at work. No. w31161. National Bureau of Economic Research, 2023.
+Fig.5 Communication with ChatGPT 4.0
+
+# Bibliography
+Shapira, Eilam, Omer Madmon, Roi Reichart, and Moshe Tennenholtz. "Can Large Language Models Replace Economic Choice Prediction Labs?." arXiv preprint arXiv:2401.17435 (2024).
 
 Horton, John J. Large language models as simulated economic agents: What can we learn from homo silicus?. No. w31122. National Bureau of Economic Research, 2023.
 
-Kojima, Takeshi, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. "Large language models are zero-shot reasoners." Advances in neural information processing systems 35 (2022): 22199-22213.
+Bolton, Gary E., Elena Katok, and Rami Zwick. "Dictator game giving: Rules of fairness versus acts of kindness." International journal of game theory 27 (1998): 269-299.
 
-LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. "Deep learning." nature 521, no. 7553 (2015): 436-444.
+Canese, Lorenzo, Gian Carlo Cardarilli, Luca Di Nunzio, Rocco Fazzolari, Daniele Giardino, Marco Re, and Sergio Spanò. "Multi-agent reinforcement learning: A review of challenges and applications." Applied Sciences 11, no. 11 (2021): 4948.
 
-Nobel Prize.“The Prize in Economic Sciences 2017.” https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/
+Luo, Bing, Yutong Feng, Shiqiang Wang, Jianwei Huang, and Leandros Tassiulas. "Incentive Mechanism Design for Unbiased Federated Learning with Randomized Client Participation." In 2023 IEEE 43rd International Conference on Distributed Computing Systems (ICDCS), pp. 545-555. IEEE, 2023.
 
-Shapira, Eilam, Omer Madmon, Roi Reichart, and Moshe Tennenholtz. "Can Large Language Models Replace Economic Choice Prediction Labs?." arXiv preprint arXiv:2401.17435 (2024).
-
-Thaler, Richard H., and Cass R. Sunstein. Nudge: Improving decisions about health, wealth, and happiness. Penguin, 2009.
+Yan, Jia, Suzhi Bi, and Ying Jun Angela Zhang. "Offloading and resource allocation with general task graph in mobile edge computing: A deep reinforcement learning approach." IEEE Transactions on Wireless Communications 19.8 (2020): 5404-5419.
 
 # Grammaly and Turnitin
 ![Grammaly](Grammaly.png)
