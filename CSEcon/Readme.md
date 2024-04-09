@@ -16,12 +16,20 @@ My inspiration came from a paper by Takeshi and colleagues titled "Large Languag
 
 In closing, I regard ChatGPT as an exceptional tool without question, yet the prevailing challenge is defining its mechanism of interaction and collaboration with human thought. My initial research focus is to employ GPT as a sieve for human thoughts, assisting individuals in identifying their core dilemmas. Looking ahead, this endeavor could potentially contribute an integrated model or solutions to the intricate inquiry of "How do humans think?"
 
+![ECONCS](CS&Econ_inter_flowchart.png)
+
+Fig.1 Mindmap of CS&Econ intersection
+
 ## Question 2
 **CS&Econ for a Better Future**: How do you perceive the synergy between computer science and economics as a catalyst for steering innovation toward a brighter future? Please present a foundational assertion, followed by multiple specific instances that support your claim, including a reference to a topic discussed at the colloquium on Friday, March 22.
 
 A potential interdisciplinary route between computer science and economics is the practical application of generative artificial intelligence, particularly in deciphering fundamental human needs and emulating human behavior. During a lecture on March 22nd, a speaker from KONE Corporation expounded on how generative AI is instrumental in resolving customer issues, using GPT as a novel tool for online customer support. This brought to mind the article "Generative AI at Work" by Brynjolfsson et al.(2023), where they trialed the application of AI customer service in a lab environment, revealing the considerable potential for AI to effectively execute these tasks.
 
 Furthermore, generative artificial intelligence is widely researched in the area of economic choice prediction and experimental economics. According to a study by Shapira and colleagues (2024), significant recent advancements in AI have included the exploration of whether Large Language Models (LLMs) can replace humans in basic choice prediction scenarios, as well as an examination of more complex and stringent experimental economic settings through a machine learning perspective. This involves scenarios with incomplete information, repeated gameplay, and natural language interactions, especially in language-based persuasive games.
+
+![ECONCSfuture](CS&Econ_future_flowchart.png)
+
+Fig.2 Mindmap of CS&Econ for better future
 
 ## Question 3
 **Beyond CS & Econ**: How are aspects of human nature, like bounded rationality, and pioneering technologies, such as generative AI, reshaping the dynamics between humans and AI agents in strategic contexts? Additionally, how might this interplay be perceived and conceptualized distinctively from current models? 
@@ -32,6 +40,10 @@ Recently, Horton et al.(2023), through a working paper from the National Bureau 
 Meanwhile, Kojima et al. (2022) revealed the zero-shot reasoning capabilities of LLMs without any task-specific training examples. Their studies indicated that by simply adding the prompt "Let's think step by step" before each answer, they could significantly improve the performance of LLMs in a variety of benchmark reasoning tasks. This suggests that high-level, multi-task, broad cognitive capabilities of LLMs can be elicited through simple prompting. This finding emphasizes the importance of exploring and analyzing the vast untapped zero-shot knowledge within LLMs before rushing to design specialized datasets or confining to a few-shot examples (Kojima et al., 2022).
 
 In summary, I've noted that a significant body of research is preoccupied with the comparison of the perfect rationality of Generative AI (GAI) with human bounded rationality. Under these circumstances, replacing humans with GAI to undertake game theory-related studies might bring about certain conveniences; however, it might also lead to inherent biases. Moving forward, the challenge of exploring how AI and humans can collaborate effectively will likely persist as a prominent field of research.
+
+![AI&Human](AI&Human_flowchat.png)
+
+Fig.3 Mindmap of AI&Human
 
 # Bibliography
 Association for Computing Machinery."2018 Turing Award."  https://awards.acm.org/about/2018-turing.
@@ -49,3 +61,7 @@ Nobel Prize.“The Prize in Economic Sciences 2017.” https://www.nobelprize.or
 Shapira, Eilam, Omer Madmon, Roi Reichart, and Moshe Tennenholtz. "Can Large Language Models Replace Economic Choice Prediction Labs?." arXiv preprint arXiv:2401.17435 (2024).
 
 Thaler, Richard H., and Cass R. Sunstein. Nudge: Improving decisions about health, wealth, and happiness. Penguin, 2009.
+
+# Grammaly and Turnitin
+![Grammaly](Grammaly.png)
+![Turnitin](Turnitin.png)
