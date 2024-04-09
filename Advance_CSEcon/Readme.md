@@ -21,11 +21,15 @@ Fig.2 Flowchart of GAI interact with Otree
 
 I wish to recreate the Trust Game using Multi-Agent Reinforcement Learning (MARL). In the Trust Game, two anonymous players are endowed with a sum of money. The first player (the trustor) decides whether to send a portion or all of their money to the second player (the trustee). The transferred amount is then multiplied (typically tripled) by the experimenter, after which the second player chooses whether and how much of the multiplied sum to return to the first player (Bolton, Katok, & Zwick, 1998). To apply MARL, we need to define two agents in the environment: one representing the investor and the other the trustee. The aim of these agents is to maximize their own returns, achievable through either cooperation or non-cooperation. The state could include the current allocation of funds, previous transaction history, etc. Actions are the decisions the agents can make, such as how much the investor decides to invest and how much the trustee decides to return. The rewards are based on their decisions and could take the form of monetary returns.
 
-My classroom experience has taught me that conventional reward settings tend to steer problems towards optimal solutions. However, in game theory problems, considerations like Nash equilibria—which might not be optimal—need to be factored in. To address this, it becomes necessary to continuously tweak the reward systems of each agent. For example, to reach a Nash equilibrium, the giver's loss aversion should be set so high that they wouldn't give any money to the second person. Inspired by this predicament, I have also come to appreciate the intricate variability in game theory research; that each reward structure we devise may correlate with a different psychological outcome in subjects. As Canese et al. (2021) pointed out, the uncertainty and dynamism of environments pose a significant challenge when applying Multi-Agent Reinforcement Learning (MARL) in the real world. Moreover, the interactions between multiple agents are non-static, meaning the actions of one agent can impact the returns of others. Consequently, we require more sophisticated MARL models to adapt to varying situations, such as the optimization models like the decision-transformer model.
+My classroom experience has taught me that conventional reward settings tend to steer problems towards optimal solutions, as in figure 3, I ran the 2048 MARL result. However, in game theory problems, considerations like Nash equilibria—which might not be optimal—need to be factored in. To address this, it becomes necessary to continuously tweak the reward systems of each agent. For example, to reach a Nash equilibrium, the giver's loss aversion should be set so high that they wouldn't give any money to the second person. Inspired by this predicament, I have also come to appreciate the intricate variability in game theory research; that each reward structure we devise may correlate with a different psychological outcome in subjects. As Canese et al. (2021) pointed out, the uncertainty and dynamism of environments pose a significant challenge when applying Multi-Agent Reinforcement Learning (MARL) in the real world. Moreover, the interactions between multiple agents are non-static, meaning the actions of one agent can impact the returns of others. Consequently, we require more sophisticated MARL models to adapt to varying situations, such as the optimization models like the decision-transformer model. Figure 4 shows the flowchat of whole process. And [MARL_trust_game](https://github.com/Rising-Stars-by-Sunshine/CSECON206_Ziyu/blob/main/Advance_CSEcon/MARL_trust_game.py) shows the basic code structure.
 
 ![MARL](MARL_flowchart.png)
 
-Fig.3 Flowchart of MARL improvement 
+Fig.3 Using PettingZoo API to run 2048 game
+
+![MARL](MARL_flowchart.png)
+
+Fig.4 Flowchart of MARL improvement 
 
 **Question 3 Brainstorm your research idea by criticizing existing research: Critiquing and Expanding upon Existing Research**
 
@@ -53,15 +57,15 @@ Looking ahead, the integration of generative artificial intelligence models with
 
 **5. Beyond Computer Science and Economics**
 
-Regarding this issue, I sought the perspective of ChatGPT 4.0, as shown in figure 5, which suggested that integrating bounded rationality—encompassing human cognitive limitations and decision-making heuristics—with a Federated Learning (FL) environment that includes multiple artificial intelligence agents such as ChatGPT could significantly impact outcomes. Human participants may display decision-making influenced by psychological heuristics, resulting in a varying response to incentives compared to a purely rational model. On the other hand, artificial intelligence agents, based on their programming, may exhibit different forms of "rationality," potentially more consistent yet lacking the intuitive judgement akin to humans. Incorporating such elements introduces more complex and potentially unpredictable dynamics into the FL model, thus necessitating the design of robust incentive mechanisms and participation strategies that cater to human cognitive traits and AI capabilities. This approach could yield more realistic models that better reflect the interactions and decision-making processes of the real world.
+Regarding this issue, I sought the perspective of ChatGPT 4.0, as shown in figure 6, which suggested that integrating bounded rationality—encompassing human cognitive limitations and decision-making heuristics—with a Federated Learning (FL) environment that includes multiple artificial intelligence agents such as ChatGPT could significantly impact outcomes. Human participants may display decision-making influenced by psychological heuristics, resulting in a varying response to incentives compared to a purely rational model. On the other hand, artificial intelligence agents, based on their programming, may exhibit different forms of "rationality," potentially more consistent yet lacking the intuitive judgement akin to humans. Incorporating such elements introduces more complex and potentially unpredictable dynamics into the FL model, thus necessitating the design of robust incentive mechanisms and participation strategies that cater to human cognitive traits and AI capabilities. This approach could yield more realistic models that better reflect the interactions and decision-making processes of the real world.
 
 ![critique](Paper_critique_flowchart.png)
 
-Fig.4 Mindmap of paper critique
+Fig.5 Mindmap of paper critique
 
 ![gpt](Chatgpt.png)
 
-Fig.5 Communication with ChatGPT 4.0
+Fig.6 Communication with ChatGPT 4.0
 
 # Bibliography
 Shapira, Eilam, Omer Madmon, Roi Reichart, and Moshe Tennenholtz. "Can Large Language Models Replace Economic Choice Prediction Labs?." arXiv preprint arXiv:2401.17435 (2024).
