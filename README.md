@@ -1,5 +1,5 @@
 # CSECON206_Ziyu
-![EconCompsci206 Avatar](avatar_petofi.png)
+![EconCompsci206 Avatar](kitty.png)
 # Short Bio
 Hi all, I'm Ziyu Huang from China, junior student in Data Science. I've always thought economics to be an interesting subject, as I view it, its essential focus is on every individual in our society, endeavoring to accurately depict how they act and make decisions, particularly in the realms of trade and collaboration. This stands quite apart from Computer Science's pure mathematics and technical engineering focus. However, there are lots of CS applications can provide precise tools for quantitative analysis and forecasting for economics. I think this connection is my primary motivation for enrolling in this course. I expect this course will provide me with more interdisciplinary background, as well as introducing me to some new research methodologies or algorithms.
 
